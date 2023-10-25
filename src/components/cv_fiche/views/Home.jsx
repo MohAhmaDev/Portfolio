@@ -1,5 +1,6 @@
 import React from 'react';
 import GeneraleBanner from '../contain/GeneraleBanner';
+import profil from '../../../img/mohamed.jpg'
 
 const Home = () => {
     return (
@@ -26,7 +27,7 @@ const Home = () => {
                 
                     </div>
                 
-                    <img src={`../../mohamed.jpg`} id="img" />
+                    <img src={profil} id="img" />
                 </div>
             </div>
         </div>
